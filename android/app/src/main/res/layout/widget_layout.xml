@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Glance APIを使う場合このlayoutはフォールバック用 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#EADDFF"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💇 Hair Tracker"
+        android:textSize="12sp"
+        android:textColor="#6750A4"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--- 日目"
+        android:textSize="20sp"
+        android:textColor="#21005D"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--.-- mm"
+        android:textSize="14sp"
+        android:textColor="#6750A4" />
+
+</LinearLayout>
