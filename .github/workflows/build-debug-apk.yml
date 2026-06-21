@@ -1,14 +1,7 @@
 name: Build Debug APK
 
 on:
-  push:
-    branches:
-      - main
-      - develop
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch:  # 手動実行ボタン
+  workflow_dispatch:  # 手動実行のみ
 
 jobs:
   build:
