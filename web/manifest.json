@@ -1,0 +1,22 @@
+{
+  "name": "Hair Growth Tracker",
+  "short_name": "HairTracker",
+  "description": "髪の長さを管理するWebアプリ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFBFE",
+  "theme_color": "#6750A4",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
